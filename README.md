@@ -103,6 +103,17 @@ This README.md file provides you with an overview of this structure, as well as,
         git clone https://github.com/COMP122/comp122-s23.git comp122
         ```
 
+     1. Copy the contents profile.bash file to the appropriate shell startup file.  E.g.,
+        ```
+        cat profile.bash >> ~/.bash_profile
+        ```
+
+     1. Ensure the 'MARS IDE' is appropriate registered with your computer
+        - Open up Exporer (Windows) or Finder (Mac)
+        - Naviage to the COMP122 bin directory:  ~/classes/comp122/bin/
+        - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu.
+        - Click Open.
+
   1. Consider installing docker:
      - https://www.docker.com
 
