@@ -87,12 +87,12 @@ This README.md file provides you with an overview of this structure, as well as,
        - Generate new SSH key: Create an empty passphrase
          * Adding your SSH key to the ssh-agent:  SKIP
        - Add a new SSH key
-       - Test yoyur SSH connection
+       - Test your SSH connection
      - I'll have more to say about SSH in future lectures.
  
 
   1. Setup your local comp122 environment: <br/>
-     Launch a gitbash (Windows) or Launch a terminal (All other OSes)
+     Launch a gitbash (Windows), or Launch a terminal (All other OSes)
       1. Create the canonical folder for the class: \~/classes/comp122 
          ```
          mkdir -p ~/classes/
@@ -103,9 +103,9 @@ This README.md file provides you with an overview of this structure, as well as,
         git clone https://github.com/COMP122/comp122-s23.git comp122
         ```
 
-     1. Copy the contents profile.bash file to the appropriate shell startup file.  E.g.,
+     1. Update the appropriate shell startup file to source .profile.comp122.
         ```
-        cat profile.bash >> ~/.bash_profile
+        echo "source $HOME/classes/comp122/.profile.comp122"  >> .profile
         ```
 
      1. Ensure the 'MARS IDE' is appropriate registered with your computer
@@ -114,6 +114,26 @@ This README.md file provides you with an overview of this structure, as well as,
         - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu.
         - Click Open.
 
-  1. Consider installing docker:
-     - https://www.docker.com
+  1. Test your local environment.  First open a new terminal and execute the following commands:
+     ```
+     cd $COMP122_HOME
+     cd mips
+     mars add4.s
+     mips_subroutine add4 2 4 6 8
+     ```
+     
+     Ensure your terminal has the following output
+     ```
+     dwarf:~ steve$ cd $COMP122_HOME
+     dwarf:comp122 steve$ cd mips
+     dwarf:mips steve$ mars add4.s
+     MARS 4.5  Copyright 2003-2014 Pete Sanderson and Kenneth Vollmar
+     
+     10
+     dwarf:mips steve$ mips_subroutine add4 2 4 6 8
+             20; 0x00 00 00 14; 0b0000 0000 0000 0000 0000 0000 0001 0100;
+     
+     dwarf:mips steve$ 
+     ```
+     Note that the substring `dwarf: steve$ ` is my prompt. Your prompt will differ.
 
