@@ -13,9 +13,9 @@ This file contains the list of deliverables for COMP 122. Such deliverables incl
 <h2 id="quizzes">Quizzes and Exams (Section N)</h2>
 
 1. Name: Final Participation Score
-   - Status: OnGoing -- Score determine at the end fo the semester
+   - Status: OnGoing -- Score determined at the end fo the semester
    - Deliverable ID: 00
-   - Invitation URL: No URL NA
+   - Invitation URL: NA
    - Due Date: NA
 
 
