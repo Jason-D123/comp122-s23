@@ -20,8 +20,9 @@
 
    * GitHub Organization: https://github.com/COMP122
 
-   * Auxiliary Documents (on drive.my.csun.edu): 
-     https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH
+   * Auxiliary Documents (on [drive.my.csun.edu](https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH)): 
+     https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH <br>
+
 
    * Office Hours: 
      - Tuesday @ 11:30-12:15 & Thursday @ 12:00-12:45 -- with prior notification.
