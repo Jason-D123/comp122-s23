@@ -1,23 +1,30 @@
 # Syllabus: Computer Architecture and Assembly Language and Lab
 * Semester: Spring 2023
 * Professor: [Dr. Steven Fitzgerald](mailto:steve@my.csun.edu)
-  * https://github.com/smf-steve
+  * https://smf-steve.github.io/home/
 
 ## Adding this Class
-  * The CS department maintains a wait list for this class.
-  * The CS department will provide permission numbers based upon a defined priority scheme.
   * I do *NOT* provide permissions numbers.
+  * Contact the CS department:
+    - The CS department maintains a wait list for this class.
+    - They may provide you with a permission number based upon a defined priority scheme.
 
 ## General Information
-   * Canvas:  I do NOT use canvas!
+   * Canvas:  I do *NOT* use canvas!
+
    * Slack Link: https://comp122-csun.slack.com
+
    * Slack Channel:  #fitzgerald-s23
      - to be used for all class discusses 
      - see the note below in the Collaboration and Teams Section
+
    * GitHub Organization: https://github.com/COMP122
-   * Auxiliary Documents (on drive.my.csun.edu): https://drive.google.com/drive/u/1/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH
+
+   * Auxiliary Documents (on drive.my.csun.edu): 
+     https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH
+
    * Office Hours: 
-     - Tuesday @ 11:30-12:15 & Thursday @ 12:00-12:45 -- with prior notification
+     - Tuesday @ 11:30-12:15 & Thursday @ 12:00-12:45 -- with prior notification.
      - Zoom Link: https://csun.zoom.us/my/smf.steve
 
 ## Class Information: COMP122/L-02 (16204 /16205)
