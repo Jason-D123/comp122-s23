@@ -4,7 +4,7 @@
   * https://smf-steve.github.io/home/
 
 ## Adding this Class
-  * I do *NOT* provide permissions numbers.
+  * I do _NOT_ provide permissions numbers.
   * Contact the CS department:
     - The CS department maintains a wait list for this class.
     - They may provide you with a permission number based upon a defined priority scheme.
@@ -56,7 +56,7 @@
 
 ## Course Requirements:
   1. You must know how to program in Java.
-  1. You to have direct and continual access to a computer, that is brought to class.
+  1. You must have direct and continual access to a laptop computer, which is to be brought to class.
   1. You should be familiar with the Linux CLI (command line interface)
   1. You must access and learn numerous tools and online resources.
 
@@ -84,25 +84,25 @@ Introduction to computer architecture, assembly language programming, system sof
 ## Course Topics:
 The class is broken down into four main sections. The following high-level topics will be reviewed, covered, or introduced within in four main sections:   
 
-  * Models of Computations and Communications:              
+  * Section 1: Models of Computations and Communications:              
     * Universal Computer, Turning Machine, etc. 
     * OSI and TCP/IP Communication Models
     * Instruction Set Architectures (CISC versus RISC)
     * Operating Systems and Execution Models
   
-  * Encoding ad Mappings
+  * Section 2: Encoding ad Mappings
     * Table Methods: e.g., ASCII, UTF-8, base64
     * Numbering Systems
     * Base Conversions
     * Binary Numbering Representations and mathematical operations
     * Floating Point Representation 
 
-  * Boolean Logic
+  * Section 3: Boolean Logic
     * Combinatorial Circuits
     * Sequential Circuits
     * Pipeline Architectures
 
-  * Introduction to Assembly Language
+  * Section 4: Introduction to Assembly Language
     * Three Address Code and Control Flow
     * Operational Semantics: Control Flow
     * MIPS Assemble Language
@@ -111,9 +111,9 @@ The class is broken down into four main sections. The following high-level topic
 ## Course Evaluation:
 The course evaluation for both COMP 122 and COMP 122L are unified. The instructor does not make a distinction between the lecture and lab meetings and utilizes the entire time as appropriate to cover the material and projects as necessary. Each student will be evaluated and will assigned the same letter grade for both COMP122 and COMP122L. This grade should reflect the quality and quantity of knowledge that the student acquired via this course. (It is all about learning!) 
 
-Note that there is 15% percentage associated with participation. A student may demonstrate in various ways their involvement in the class. Through this involvement, I gain a better understanding of what you, and the class as a whole, has learned and what material needs to be reinforced or reviewed to strengthen the learning process.  
+Note that there is 15% percentage associated with participation. A student may demonstrate participation in various ways; just attending class in to participation. Through this involvement, I gain a better understanding of what you, and the class as a whole, has learned and what material needs to be reinforced or reviewed to strengthen the learning process.  
 
-Students are expected to work diligently and consistently throughout the semester.  Students that procrastinate till the end in hopes that they can crunch and cram just prior to the submission deadline are sadly mistaken.
+Students are expected to work diligently and consistently throughout the semester.  Students that procrastinate till the end in hopes that they can crunch and cram just prior to a submission deadline are sadly mistaken.
 
 The table below provides the objective measures used to calculate a student's final grade. 
 
@@ -129,17 +129,17 @@ Regardless of the structure used to assign a quantitative number to each student
 
 
 ## Teamwork and Collaborative Learning
-I encourage everyone to work in teams, to engage in collaborative learning activities, and to discuss course material with your colleagues. The slack channel exists for class discussions.  I monitor the discussions to determine what information needs additional coverage in class, to correct any misinformation, and to provide pointers. Moreover, the class discussions are part of your "Participation" score.
+I encourage everyone to work in teams, to engage in collaborative learning activities, and to discuss course material with your colleagues. The slack channel exists for class discussions.  I monitor the discussions to determine what information needs additional coverage in class, to correct any misinformation, and to provide pointers. Moreover, the class discussions are part of your "Participation" score.  Hence, be an active participation in class discussions on slack.
 
 
 ###  Deliverables: Due Dates and Late Submission
-All deliverables are enumerated in the "assignments.md" file within the class repository.  When an assignment is released and when it is graded, it is announced in class, and the "assignments.md" file is updated. The announcement might also be posted to the #fitzgerald-s23 channel. It is your responsibility to monitor the 
+All deliverables are enumerated in the "assignments.md" file within the class repository.  When an assignment is released and when it is graded, it is announced in class, and the "assignments.md" file is updated. The announcement might also be posted to the #fitzgerald-s23 channel. It is your responsibility to monitor class material to keep abreast of new assignments.
 
 In this class, all deliverables are submitted via `git` (a Revision Control System). Students *must* make periodic updates to the deliverable's git repository.  That is to say, students must follow the standard software development process for both programming assignments and paper-like assignments.
 
-Each deliverable has a defined "Due-date".  It is your responsibility to manage your time effectively to ensure your work is submitted correctly by the defined Due-date.  The Professor obtains a copy of your repository as it existed at that point in time.  It is this copy of your repository that is graded.
+Each deliverable has a defined "Due-date".  It is your responsibility to manage your time effectively to ensure your work is submitted correctly by the defined due-date.  The Professor maintains a copy of your repository as it existed at that point in time.  It is this copy of your repository that is graded.
 
-Any additional updates to your repository are considered late and will *not* be automatically graded. A student may request an accommodation for the Professor to grade additional information that exists in the repository as part of the grading process. If such a request is honored, which is at the discretion of the Professor, it is subject to a penalty.  Penalties increase based upon two factors:
+Any additional updates to your repository are considered late and will _not_ be automatically graded. A student may request an accommodation for the Professor to grade additional information that exists in the repository as part of the grading process. If such a request is honored, which is at the discretion of the Professor, it is subject to a penalty.  Penalties increase based upon two factors:
 
   1. the amount of time passed since the assigned due date
   1. the frequency in which a student requests an accommodation for late submissions
@@ -154,7 +154,7 @@ Obviously such requests need to be made by the student as soon as possible. Note
 
 
 ### Regrading Requests
-Any student who believes that an error was made in grading on one of their assignment may request a regrade.  Such a regrade request *must* be made within 7 calendar days after the associated grade report has been provided.  
+Any student who believes that an error was made in grading on one of their assignment may request a regrade.  Such a regrade request _must_ be made within 7 calendar days after the associated grade report has been provided.  
 
 To make such a regrade request, the student must:
   * must contact the professor via his Slack DM channel
