@@ -1,0 +1,22 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+export COMP122_HOME="$HOME/classes/comp122"
+export COMP122_BIN="${COMP122_HOME}/bin"
+
+export SUBLIME_BIN
+export GIT_EDITOR
+
+# Check which effective OS is being used
+case $(uname -o) in
+   Msys )   # Windows Machine using GitBash
+    SUBLIME_BIN='/c/Program Files/Sublime Text/subl.exe -w'
+    SUBLIME='subl.exe -w'
+    ;;
+   Darwin ) # MacOS
+     SUBLIME_BIN='/Applications/Sublime Text.app/Contents/SharedSupport/bin'  
+     SUBLIME='subl -w'
+     ;;
+esac
+
+PATH="${COMP122_BIN}:${SUBLIME_BIN}:$PATH"
+GIT_EDITOR="$SUBLIME"
