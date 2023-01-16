@@ -84,25 +84,25 @@ Introduction to computer architecture, assembly language programming, system sof
 ## Course Topics:
 The class is broken down into four main sections. The following high-level topics will be reviewed, covered, or introduced within in four main sections:   
 
-  * Section 1: Models of Computations and Communications:              
+  1. Section 1: Models of Computations and Communications:              
     * Universal Computer, Turning Machine, etc. 
     * OSI and TCP/IP Communication Models
     * Instruction Set Architectures (CISC versus RISC)
     * Operating Systems and Execution Models
   
-  * Section 2: Encoding ad Mappings
+  1. Section 2: Encoding ad Mappings
     * Table Methods: e.g., ASCII, UTF-8, base64
     * Numbering Systems
     * Base Conversions
     * Binary Numbering Representations and mathematical operations
     * Floating Point Representation 
 
-  * Section 3: Boolean Logic
+  1. Section 3: Boolean Logic
     * Combinatorial Circuits
     * Sequential Circuits
     * Pipeline Architectures
 
-  * Section 4: Introduction to Assembly Language
+  1. Section 4: Introduction to Assembly Language
     * Three Address Code and Control Flow
     * Operational Semantics: Control Flow
     * MIPS Assemble Language
@@ -139,30 +139,30 @@ In this class, all deliverables are submitted via `git` (a Revision Control Syst
 
 Each deliverable has a defined "Due-date".  It is your responsibility to manage your time effectively to ensure your work is submitted correctly by the defined due-date.  The Professor maintains a copy of your repository as it existed at that point in time.  It is this copy of your repository that is graded.
 
-Any additional updates to your repository are considered late and will _not_ be automatically graded. A student may request an accommodation for the Professor to grade additional information that exists in the repository as part of the grading process. If such a request is honored, which is at the discretion of the Professor, it is subject to a penalty.  Penalties increase based upon two factors:
+Any additional updates to your repository are considered late and will _not_ be automatically graded. A student may request an accommodation from the Professor to grade additional information that exists in the repository as part of the grading process. If such a request is honored, which is at the discretion of the Professor, it is subject to a penalty.  Penalties increase based upon two factors:
 
-  1. the amount of time passed since the assigned due date
-  1. the frequency in which a student requests an accommodation for late submissions
+  * the amount of time passed since the assigned due date
+  * the frequency in which a student requests an accommodation for late submissions
 
 To make such a late submission request, the student must:
-  * must contact the professor via his Slack DM channel
-  * must provide their github account name
-  * must provide the assignment id
-  * must provide a reason why the request should be honored.
+  1. must contact the professor via his Slack DM channel
+  1. must provide their github account name
+  1. must provide the assignment id
+  1. must provide a reason why the request should be honored.
 
 Obviously such requests need to be made by the student as soon as possible. Note that no deliverable may be more than 7 calendar days late.
 
 
 ### Regrading Requests
-Any student who believes that an error was made in grading on one of their assignment may request a regrade.  Such a regrade request _must_ be made within 7 calendar days after the associated grade report has been provided.  
+Any student who believes that an error was made in grading one of their assignment may request a regrade.  Such a regrade request _must_ be made within 7 calendar days after the associated grade report has been provided.  
 
 To make such a regrade request, the student must:
-  * must contact the professor via his Slack DM channel
-  * must provide their github account name
-  * must provide the assignment id
-  * must provide specific information about the error that was made 
+  1. must contact the professor via his Slack DM channel
+  1. must provide their github account name
+  1. must provide the assignment id
+  1. must provide specific information about the error that was made 
 
-Note that no regrade request made more than 7 calendar days will be honored.
+Note that a regrade request made more than 7 calendar days will not be honored.
 
 
 
@@ -182,7 +182,7 @@ As noted above---I encourage everyone to work in teams, to engage in collaborati
 
 Collaborative learning does not include the sharing of information that is included within a deliverable.  As such, all student deliverables must be the work of the student who has submitted the material. 
 
-Students should therefore be familiar with the University's rules on academic dishonesty, which can at https://catalog.csun.edu/policies/academic-dishonesty/ Undergrad In particular, plagiarism will not be tolerated! Any student caught plagiarizing any work may automatically receive a grade of F for the course. If you are unsure as to what constitutes plagiarism, it is your responsibility to check with the instructor. Other forms of dishonesty will result in similar actions.
+Students should therefore be familiar with the University's rules on academic dishonesty, which can found within the University Catalog (specifically at https://catalog.csun.edu/policies/academic-dishonesty/). In particular, plagiarism will not be tolerated! Any student caught plagiarizing any work may automatically receive a grade of F for the course. If you are unsure as to what constitutes plagiarism, it is your responsibility to check with the Professor. Other forms of dishonesty will result in similar actions.
 
 
 ### Plagiarism and Academic Dishonesty
