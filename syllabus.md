@@ -85,28 +85,28 @@ Introduction to computer architecture, assembly language programming, system sof
 The class is broken down into four main sections. The following high-level topics will be reviewed, covered, or introduced within in four main sections:   
 
   1. Section 1: Models of Computations and Communications:              
-    * Universal Computer, Turning Machine, etc. 
-    * OSI and TCP/IP Communication Models
-    * Instruction Set Architectures (CISC versus RISC)
-    * Operating Systems and Execution Models
+     * Universal Computer, Turning Machine, etc. 
+     * OSI and TCP/IP Communication Models
+     * Instruction Set Architectures (CISC versus RISC)
+     * Operating Systems and Execution Models
   
   1. Section 2: Encoding ad Mappings
-    * Table Methods: e.g., ASCII, UTF-8, base64
-    * Numbering Systems
-    * Base Conversions
-    * Binary Numbering Representations and mathematical operations
-    * Floating Point Representation 
+     * Table Methods: e.g., ASCII, UTF-8, base64
+     * Numbering Systems
+     * Base Conversions
+     * Binary Numbering Representations and mathematical operations
+     * Floating Point Representation 
 
   1. Section 3: Boolean Logic
-    * Combinatorial Circuits
-    * Sequential Circuits
-    * Pipeline Architectures
+     * Combinatorial Circuits
+     * Sequential Circuits
+     * Pipeline Architectures
 
   1. Section 4: Introduction to Assembly Language
-    * Three Address Code and Control Flow
-    * Operational Semantics: Control Flow
-    * MIPS Assemble Language
-    * Parameter Passing: Registers, stacks, frames and buffers
+     * Three Address Code and Control Flow
+     * Operational Semantics: Control Flow
+     * MIPS Assemble Language
+     * Parameter Passing: Registers, stacks, frames and buffers
 
 ## Course Evaluation:
 The course evaluation for both COMP 122 and COMP 122L are unified. The instructor does not make a distinction between the lecture and lab meetings and utilizes the entire time as appropriate to cover the material and projects as necessary. Each student will be evaluated and will assigned the same letter grade for both COMP122 and COMP122L. This grade should reflect the quality and quantity of knowledge that the student acquired via this course. (It is all about learning!) 
