@@ -7,4 +7,3 @@
   1. Combinational Circuits
   1. Control Lines and the CPU
   1. State and MicroArchitecture
-

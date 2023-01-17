@@ -7,4 +7,3 @@
   1. Memory Alignment
   1. String Processing
   1. Subroutine Processing
-

@@ -20,5 +20,3 @@ esac
 
 PATH="${COMP122_BIN}:${SUBLIME_BIN}:$PATH"
 GIT_EDITOR="$SUBLIME"
-
-alias comp122="cd $COMP122_HOME"
