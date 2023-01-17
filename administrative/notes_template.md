@@ -33,4 +33,4 @@
 
 ---
 ## Notes
-<!-- Place your individual notes in this section -->
+<!-- This section is for students to place their notes -->
