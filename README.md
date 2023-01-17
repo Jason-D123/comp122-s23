@@ -3,7 +3,7 @@
 
 This repository provides you with material associated with COMP122.  During the semester, the professor will be adding additional information to this repository. As such, you will need to regularly perform a `git pull`operation to obtain the most up-to-date information.
 
-In addition to this class-material repository, you will also need to clone a number of other repositories. This other repositories are primarily associated   All of this material are organized within a predefined file hierarchy for organizational purposes. 
+In addition to this repository, you will also need to clone a number of other repositories. These other repositories are primarily associated with deliverables to various assignments, projects, and exams.  All of the material for COMP122 is organized within a predefined file folder ($HOME/classes/COMP122).
 
 This README.md file provides you with an overview of this structure, key information, and a set of tasks to perform to get ready for this semester.  
 
@@ -60,7 +60,7 @@ This README.md file provides you with an overview of this structure, key informa
 
 
 ---
-## Tasks (to be complete ASAP)
+## Tasks (To be completed ASAP)
   1. Establish Accounts:
      - https://slack.com: 
        - Your account should be associated with your @my.csun.edu address.
@@ -77,24 +77,25 @@ This README.md file provides you with an overview of this structure, key informa
 
 
   1. Join the Slack COMP122 work space:
-     - Accept the  invitation <br/> via https://join.slack.com/t/comp122-csun/signup using your @my.csun.edu address.
+     - Accept the  nvitation <br/> via https://join.slack.com/t/comp122-csun/signup using your @my.csun.edu address.
      - Add the 'fitzgerald-s23' channel, this is where all class discussions are held.
-     - Respond to the 'Hello Class!' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-s23").
+     - Respond to the 'Hello Class!' post via the 'reply to thread' option (do NOT "Also send to #fitzgerald-s23").
 
 
-  1. Setup your local comp122 environment: <br/>
+  1. Setup your local Comp122 environment: <br/>
      Launch a gitbash (Windows), or Launch a terminal (All other OSes)
       1. Create the canonical folder for the class: \~/classes/comp122 
          ```
-         mkdir -p ~/classes/
+         cd
+         mkdir classes
          ```
      1. Clone a copy of this repository:
         ```
-        cd ~/classes/
+        cd classes
         git clone https://github.com/COMP122/comp122-s23.git comp122
         ```
 
-     1. Update the appropriate startup file to source .profile.comp122. For example,
+     1. Update the appropriate startup file to source COMP122's `.profile.comp122.` For example:
         ```
         cd
         cp .profile .profile.orig
@@ -130,3 +131,4 @@ This README.md file provides you with an overview of this structure, key informa
      ```
      Note that the substring `dwarf: steve$ ` is my prompt. Your prompt will differ.
 
+If you have any problems completing these tasks, post a message in the #fitzgerald-s23 channel.
