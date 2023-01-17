@@ -60,16 +60,16 @@ This file contains the list of deliverables for COMP 122. Such deliverables incl
    - Due Date: Jan 23 23:59:59 (ASAP)
 
 1. My First Assignment
-   - Status: Assigned
+   - Status: Not released!
    - Deliverable ID: 02
-   - Invitation URL: 
-   - Due Date: Jan 23 23:59:59 (ASAP)
+   - Invitation URL: https://classroom.github.com/a/c1oXvbim
+   - Due Date: Jan 27 23:59:59
 
-1. Mathematical Review
-   - Status: Assigned (Credit/No Credit)
+1. Mathematical Review( Credit/No Credit)
+   - Status: Not released!
    - Deliverable ID: 03
-   - Invitation URL: 
-   - Due Date: Jan 23 23:59:59 (ASAP)
+   - Invitation URL: https://classroom.github.com/a/6lST7OTK
+   - Due Date: Jan 27 23:59:59
 
 1. Name: 
    - Status: 
