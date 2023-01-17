@@ -99,7 +99,7 @@ This README.md file provides you with an overview of this structure, key informa
         ```
         cd
         cp .profile .profile.orig
-        echo "source $HOME/classes/comp122/.profile.comp122"  >> .profile
+        echo 'source $HOME/classes/comp122/.profile.comp122'  >> .profile
         ```
 
      1. Ensure the 'MARS IDE' is appropriately registered with your computer:
