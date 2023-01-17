@@ -11,24 +11,24 @@ the student with an guesstimate of what their final grade _might_ be.
 #### Installation
 
 1. Install an appropriate program to display a Mardown file.
-   - For example, One Markdown: https://www.mweb.im/index.html
-   - You can view the output file via a text editor, but the  alignment of values within a table may be off.
+   - For example, One Markdown: https://apps.apple.com/us/app/one-markdown/id1507139439
+   - You can view the output file via a text editor, but the alignment of values within a table may be off.
 
 1. If you have followed the directions to setup your COMP122 filesystem, then execute the following steps:
-   \`cd ~/Desktop/classes/comp122\`
-   \`ln -s class-material/adminstrative/grade_guesstimator.defaults deliverables/grade_guesstimator.defaults\`
-   \`ln -s class-material/adminstrative/grade_guesstimator deliverables/grade_guesstimator\`
+   - \`cd $COMP122_HOME\`
+   - \`cp etc/grade_guesstimator.defaults deliverables/grade_guesstimator.defaults\`
 
 #### Setup
 
-1. Edit the file ../deliverables/grade_guesstimator.defaults, as appropriate
-1. Ensure you do a \`git pull\` on each of your individual deliverables 
+1. Edit the file $COMP122_HOME/deliverables/grade_guesstimator.defaults, as appropriate
+1. Ensure you do a \`git pull\` on each of your individual deliverables
+
 
 #### Execution
 
 1. If you have followed the directions to setup your COMP122 filesystem, and befored the installation step, then execute the following commands.
 
-   \`cd ~/Desktop/classes/comp122/deliverables\`
+   \`cd classes/comp122/deliverables\`
    \`./grade_guesstimator\`
 
 1. You may edit the values within the file grade_guesstimator.defaults to obtain a better guesstimate of your grade.
@@ -91,18 +91,22 @@ function average () {
 #    1. bbb_dd.guesstimated_grade.md
 #    1. .grade_list
 
+[[ -z ${COMP122_HOME } ]]  && 
+  { echo Comp122 Environment has not be setup correctly; exit 2; }
+
 
 # Source the default grade assignment
-if [[ -f grade_guesstimator.defaults ]] ; then
-  source grade_guesstimator.defaults
+if [[ -f $COMP122_HOME/deliverables/grade_guesstimator.defaults ]] ; then
+  source $COMP122_HOME/deliverables/grade_guesstimator.defaults
 fi
 
 # Source each grade.report
+rm -f .grade_list
 while read _grade_report ; do
     grep "ASSIGNMENT_\.*=" $_grade_report
-done < <( find . -name grade.report -print ) >> .grade_list
+done < <( find $COMP122_HOME/deliverables/ -name grade.report -print ) >> .grade_list
 source .grade_list
-
+rm -f .grade_list
 
 
 # Collect the Participation Scores
