@@ -1,4 +1,4 @@
-# COMP122 Overview
+# Introduction to COMP122
 #### Version: Spring 2023
 
 This repository provides you with material associated with COMP122.  During the semester, the professor will be adding additional information to this repository. As such, you will need to regularly perform a `git pull`operation to obtain the most up-to-date information.
@@ -9,21 +9,21 @@ This README.md file provides you with an overview of this structure, key informa
 
 ---
 ## Canonical Root: $HOME/classes/comp122
-  * Important documents: reposited from various subdirector
-    - introduction.md: Introductory Information for this class
-    - assignments.md: Living document enumerating class assignments
+  * Top-level documents
+    - introduction.md: A copy of the README.md document
     - syllabus.md: The course syllabus
+    - assignments.md: Living document enumerating class assignments
+
     
   * General Subdirectories:
-    - administrative: various files about the class
+    - administrative: various files associted with the adminstrative process of this class
+    - bin: various programs associated with COMP122
 
     - deliverables: directory for the placement of all deliverables)
       - 11-\<name\>-\<account\> (Section #1, Deliverable #1)
       - 24-\<name\>-\<account\> (Section #2, Deliverable #4)
       - ...
       - 40-\<name\>-\<account\> (Section #4, Deliverable #0)
-
-    - bin: various programs associated with COMP122
 
     - reference: reference documents
 
@@ -80,19 +80,7 @@ This README.md file provides you with an overview of this structure, key informa
      - Accept the  invitation <br/> via https://join.slack.com/t/comp122-csun/signup using your @my.csun.edu address.
      - Add the 'fitzgerald-s23' channel, this is where all class discussions are held.
      - Respond to the 'Hello Class!' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-s23").
- 
 
-  1. Configure your github environment (https://githuyb.com)
-     - Configure your account to authenticate using SSH. <br>
-       refer to [Connect with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
-       - About SSH: READ
-       - Check for existing SSH key:
-       - Generate new SSH key: Create an empty passphrase
-         * Adding your SSH key to the ssh-agent:  SKIP
-       - Add a new SSH key
-       - Test your SSH connection
-     - I'll have more to say about SSH in future lectures.
- 
 
   1. Setup your local comp122 environment: <br/>
      Launch a gitbash (Windows), or Launch a terminal (All other OSes)
@@ -106,16 +94,18 @@ This README.md file provides you with an overview of this structure, key informa
         git clone https://github.com/COMP122/comp122-s23.git comp122
         ```
 
-     1. Update the appropriate shell startup file to source .profile.comp122.
+     1. Update the appropriate startup file to source .profile.comp122. For example,
         ```
+        cd
+        cp .profile .profile.orig
         echo "source $HOME/classes/comp122/.profile.comp122"  >> .profile
         ```
 
-     1. Ensure the 'MARS IDE' is appropriate registered with your computer
+     1. Ensure the 'MARS IDE' is appropriately registered with your computer:
         - Open up Exporer (Windows) or Finder (Mac)
         - Naviage to the COMP122 bin directory:  ~/classes/comp122/bin/
-        - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu.
-        - Click Open.
+        - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu
+        - Click Open
 
   1. Test your local environment.  First open a new terminal and execute the following commands:
      ```
@@ -125,7 +115,7 @@ This README.md file provides you with an overview of this structure, key informa
      mips_subroutine add4 2 4 6 8
      ```
      
-     Ensure your terminal has the following output
+     Ensure your terminal has the following output:
      ```
      dwarf:~ steve$ cd $COMP122_HOME
      dwarf:comp122 steve$ cd mips
