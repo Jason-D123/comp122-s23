@@ -70,7 +70,9 @@ This README.md file provides you with an overview of this structure, key informa
 
   1. Install Software on your personal computer:
      - Sublime Text Editor: https://www.sublimetext.com
-     - One Markdown: or other suitable Markdown Viewer
+     - One Markdown: 
+       - https://apps.microsoft.com/store/search/markdown
+       - https://apps.apple.com/us/app/one-markdown/id1507139439
      - Slack: https://slack.com  <br />   
        * Consider installing the mobile application as well
      - Git for Windows: https://gitforwindows.org
