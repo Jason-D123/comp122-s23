@@ -47,17 +47,17 @@ This README.md file provides you with an overview of this structure, key informa
 
 ---
 ## Key Information:
+  * Canonical Class Directory: $HOME/classes/comp122
+  * Git Organization and Repositories
+    - COMP122 Home: https://github.com/COMP122
+    - COMP122 class material: https://github.com/COMP122/comp122-s23.git
   * Software Requirements
     - Sublime Text (editor): https://www.sublimetext.com
     - One Markdown: from the AppStore or other Markdown Viewer
     - Slack (for class communication): https://slack.com 
     - Git: preinstall or https://gitforwindows.org
     - Java: preinstalled or https://www.java.com
-  * Git Organization and Repositories
-    - COMP122 Home: https://github.com/COMP122
-    - COMP122 class material: https://github.com/COMP122/comp122-s23.git
-  * Canonical Class Directory: $HOME/classes/comp122
-
+ 
 
 ---
 ## Tasks (To be completed ASAP)
@@ -77,8 +77,8 @@ This README.md file provides you with an overview of this structure, key informa
 
 
   1. Join the Slack COMP122 work space:
-     - Accept the  nvitation <br/> via https://join.slack.com/t/comp122-csun/signup using your @my.csun.edu address.
-     - Add the 'fitzgerald-s23' channel, this is where all class discussions are held.
+     - Accept the invitation <br/> via https://join.slack.com/t/comp122-csun/signup using your @my.csun.edu address.
+     - Add the '#fitzgerald-s23' channel, this is where all class discussions are held.
      - Respond to the 'Hello Class!' post via the 'reply to thread' option (do NOT "Also send to #fitzgerald-s23").
 
 
@@ -98,11 +98,12 @@ This README.md file provides you with an overview of this structure, key informa
      1. Update the appropriate startup file to source COMP122's `.profile.comp122.` For example:
         ```
         cd
+        touch .profile
         cp .profile .profile.orig
-        echo "source $HOME/classes/comp122/.profile.comp122"  >> .profile
+        echo 'source $HOME/classes/comp122/.profile.comp122'  >> .profile
         ```
 
-     1. Ensure the 'MARS IDE' is appropriately registered with your computer:
+     1. Ensure the MARS IDE is appropriately registered with your computer:
         - Open up Exporer (Windows) or Finder (Mac)
         - Naviage to the COMP122 bin directory:  ~/classes/comp122/bin/
         - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu
