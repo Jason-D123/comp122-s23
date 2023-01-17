@@ -3,7 +3,7 @@
 
 This repository provides you with material associated with COMP122.  During the semester, the professor will be adding additional information to this repository. As such, you will need to regularly perform a `git pull`operation to obtain the most up-to-date information.
 
-In addition to this repository, you will also need to clone a number of other repositories. These other repositories are primarily associated with deliverables to various assignments, projects, and exams.  All of the material for COMP122 is organized within a predefined file folder ($HOME/classes/COMP122).
+In addition to this repository, you will also need to clone a number of other repositories. These other repositories are primarily associated with deliverables to various assignments, projects, and exams.  All of the material for COMP122 is organized within a predefined file directory ($HOME/classes/COMP122).  (A directory is akin to a folder.)
 
 This README.md file provides you with an overview of this structure, key information, and a set of tasks to perform to get ready for this semester.  
 
@@ -16,7 +16,7 @@ This README.md file provides you with an overview of this structure, key informa
 
     
   * General Subdirectories:
-    - administrative: various files associted with the adminstrative process of this class
+    - administrative: various files associated with the administrative process of this class
     - bin: various programs associated with COMP122
 
     - deliverables: directory for the placement of all deliverables)
@@ -70,8 +70,8 @@ This README.md file provides you with an overview of this structure, key informa
 
   1. Install Software on your personal computer:
      - Sublime Text Editor: https://www.sublimetext.com
-     - One Markdown: 
-       - https://apps.microsoft.com/store/search/markdown
+     - A Markdown View: (for example)
+       - https://apps.microsoft.com/store/detail/markdown-view/9PJ021LR0M3G
        - https://apps.apple.com/us/app/one-markdown/id1507139439
      - Slack: https://slack.com  <br />   
        * Consider installing the mobile application as well
@@ -105,11 +105,13 @@ This README.md file provides you with an overview of this structure, key informa
         echo 'source $HOME/classes/comp122/.profile.comp122'  >> .profile
         ```
 
-     1. Ensure the MARS IDE is appropriately registered with your computer:
-        - Open up Exporer (Windows) or Finder (Mac)
-        - Naviage to the COMP122 bin directory:  ~/classes/comp122/bin/
-        - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu
-        - Click Open
+     1. For System Security reasons, you must register the MARS IDE with the Operating System.
+        - Open up File Explorer (Windows) or Finder (Mac)
+        - Navigate to the COMP122 bin directory:  ~/classes/comp122/bin/
+        - First Double-click the MARS_4.jar icon, notice that you receive the message: <br>
+            "Mars4_5.jar” cannot be opened because it is from an unidentified developer.
+        - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu<br>
+        - Click Open: to validate
 
   1. Test your local environment.  First open a new terminal and execute the following commands:
      ```
