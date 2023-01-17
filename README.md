@@ -1,13 +1,14 @@
 # COMP122 Overview
 #### Version: Spring 2023
 
-This repository provides you with material associated with COMP122.  During the semester, the professor will be adding additional information to this repository. As such, you will need to regularly perform a PULL operation to obtain the most up-to-date information.
+This repository provides you with material associated with COMP122.  During the semester, the professor will be adding additional information to this repository. As such, you will need to regularly perform a `git pull`operation to obtain the most up-to-date information.
 
-In addition to the class-material repository, you will also need to clone a number of other repositories. This other repositories are primarily associated   All of this material are organized within a predefined file hierarchy for organizational purposes. The administrative/README.md file describes this structure.
+In addition to this class-material repository, you will also need to clone a number of other repositories. This other repositories are primarily associated   All of this material are organized within a predefined file hierarchy for organizational purposes. 
 
-This README.md file provides you with an overview of this structure, as well as, a set of tasks to perform to get ready for this semester.  
+This README.md file provides you with an overview of this structure, key information, and a set of tasks to perform to get ready for this semester.  
 
-## Canonical Root: \~/classes/comp122
+---
+## Canonical Root: $HOME/classes/comp122
   * Important documents: reposited from various subdirector
     - introduction.md: Introductory Information for this class
     - assignments.md: Living document enumerating class assignments
@@ -44,7 +45,7 @@ This README.md file provides you with an overview of this structure, as well as,
     - assembly-programming/
       - with the same substructure as "models_comp_comm"
 
-
+---
 ## Key Information:
   * Software Requirements
     - Sublime Text (editor): https://www.sublimetext.com
@@ -55,8 +56,10 @@ This README.md file provides you with an overview of this structure, as well as,
   * Git Organization and Repositories
     - COMP122 Home: https://github.com/COMP122
     - COMP122 class material: https://github.com/COMP122/comp122-s23.git
-  * Canonical Class Directory: \~/classes/comp122
+  * Canonical Class Directory: $HOME/classes/comp122
 
+
+---
 ## Tasks (to be complete ASAP)
   1. Establish Accounts:
      - https://slack.com: 
