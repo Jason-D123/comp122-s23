@@ -13,7 +13,7 @@ if [[ -z $_OS ]] ; then
   _OS=$(uname -s)
 fi
 
-case $(uname -o) in
+case ${_OS} in
    Msys )   # Windows Machine using GitBash
     SUBLIME_BIN='/c/Program Files/Sublime Text/subl.exe -w'
     SUBLIME='subl.exe -w'
