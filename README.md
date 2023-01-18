@@ -105,6 +105,13 @@ This README.md file provides you with an overview of this structure, key informa
          cd
          mkdir -p classes/comp122
          ```
+     1. Setup your git global configuration: <br />
+        (update the following command to reflect your name and email address)
+        ```
+        git config --global user.name "John Doe"
+        git config --global user.email johndoe@example.com
+        ```
+
      1. Clone a copy of this repository:
         ```
         cd classes
