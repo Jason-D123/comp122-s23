@@ -109,7 +109,7 @@ This README.md file provides you with an overview of this structure, key informa
         (update the following command to reflect your name and email address)
         ```
         git config --global user.name "John Doe"
-        git config --global user.email johndoe@example.com
+        git config --global user.email johndoe@my.csun.edu
         ```
 
      1. Clone a copy of this repository:
