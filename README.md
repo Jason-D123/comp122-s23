@@ -91,7 +91,7 @@ This README.md file provides you with an overview of this structure, key informa
         ```
         echo $SHELL
         ```
-        If the output is not ;bin/bash, then
+        If the output is not `bin/bash`, then
 
         - change your shell to bash
           ```
@@ -99,7 +99,7 @@ This README.md file provides you with an overview of this structure, key informa
           ```
         - close the current terminal window
         - launch a new terminal window
-        
+
      1. Create the canonical folder for the class: \~/classes/comp122 
         ```
          cd
