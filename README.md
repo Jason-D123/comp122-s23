@@ -85,9 +85,23 @@ This README.md file provides you with an overview of this structure, key informa
 
 
   1. Setup your local Comp122 environment: <br/>
-     Launch a gitbash (Windows), or Launch a terminal (All other OSes)
-      1. Create the canonical folder for the class: \~/classes/comp122 
-         ```
+     Launch a gitbash (Windows), or Launch a terminal (All other OSes), then execute the commands associated with each of the following steps.
+
+     1. If you are a MacOS users, ensure you are using the bash shell: 
+        ```
+        echo $SHELL
+        ```
+        If the output is not ;bin/bash, then
+
+        - change your shell to bash
+          ```
+          chsh -s /bin/bash
+          ```
+        - close the current terminal window
+        - launch a new terminal window
+        
+     1. Create the canonical folder for the class: \~/classes/comp122 
+        ```
          cd
          mkdir -p classes/comp122
          ```
@@ -96,8 +110,7 @@ This README.md file provides you with an overview of this structure, key informa
         cd classes
         git clone https://github.com/COMP122/comp122-s23.git comp122
         ```
-
-     1. Update the appropriate startup file to source COMP122's `.profile.comp122.` For example:
+     1. Update the appropriate startup file to source COMP122's `.profile.comp122.`   For example:
         ```
         cd
         touch .profile
