@@ -89,7 +89,7 @@ This README.md file provides you with an overview of this structure, key informa
       1. Create the canonical folder for the class: \~/classes/comp122 
          ```
          cd
-         mkdir classes
+         mkdir -p classes/comp122
          ```
      1. Clone a copy of this repository:
         ```
