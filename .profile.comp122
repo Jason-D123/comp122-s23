@@ -7,6 +7,12 @@ export SUBLIME_BIN
 export GIT_EDITOR
 
 # Check which effective OS is being used
+_OS=$(uname -o 2>/dev/null)
+if [[ -z $_OS ]] ; then
+   # Older versions of MacOS don't support the -o option
+  _OS=$(uname -s)
+fi
+
 case $(uname -o) in
    Msys )   # Windows Machine using GitBash
     SUBLIME_BIN='/c/Program Files/Sublime Text/subl.exe -w'
