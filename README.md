@@ -116,7 +116,9 @@ This README.md file provides you with an overview of this structure, key informa
         touch .profile
         cp .profile .profile.orig
         echo 'source $HOME/classes/comp122/.profile.comp122'  >> .profile
+        source .profile
         ```
+        * Note to make your changes permanent, you will need to log out of your computer and then log back in.
 
      1. For System Security reasons, you must register the MARS IDE with the Operating System.
         - Open up File Explorer (Windows) or Finder (Mac)
