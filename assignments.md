@@ -65,7 +65,7 @@ This file contains the list of deliverables for COMP 122. Such deliverables incl
    - Invitation URL: https://classroom.github.com/a/c1oXvbim
    - Due Date: Jan 27 23:59:59
 
-1. Mathematical Review( Credit/No Credit)
+1. Mathematical Review (Credit/No Credit)
    - Status: Released
    - Deliverable ID: 03
    - Invitation URL: https://classroom.github.com/a/6lST7OTK
