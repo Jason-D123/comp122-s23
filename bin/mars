@@ -3,7 +3,5 @@
 MARS_JAR="$HOME/classes/comp122/bin/Mars4_5.jar"
 # On gitbash -- if a user has a quote in it, there is a problem.
 
-
-cd "$HOME/classes/comp122/bin/"
 java -jar "${MARS_JAR}" $*
 
