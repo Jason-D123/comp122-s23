@@ -57,6 +57,7 @@ This README.md file provides you with an overview of this structure, key informa
     - Slack (for class communication): https://slack.com 
     - Git: preinstall or https://gitforwindows.org
     - Java: preinstalled or https://www.java.com
+    
  
 
 ---
@@ -69,7 +70,8 @@ This README.md file provides you with an overview of this structure, key informa
        - All deliverables are submitted via GitHub Classrooms.
 
   1. Install Software on your personal computer:
-     - Sublime Text Editor: https://www.sublimetext.com
+     - Sublime Text Editor: https://wwsw.sublimetext.com
+       (MacOS: Note you must move the ublime Text application from the Downloads folder to the Applications folder.)
      - A Markdown View: (for example)
        - https://apps.microsoft.com/store/detail/markdown-view/9PJ021LR0M3G
        - https://apps.apple.com/us/app/one-markdown/id1507139439
