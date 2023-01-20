@@ -62,6 +62,9 @@ This README.md file provides you with an overview of this structure, key informa
 
 ---
 ## Tasks (To be completed ASAP)
+  First, take steps to upgrade your computer to the lastest version of your OS (operating system).  Without a current version, you may run
+  into a number of compatability issues, which can lead to you not being successful in completing the following tasks. 
+ 
   1. Establish Accounts:
      - https://slack.com: 
        - Your account should be associated with your @my.csun.edu address.
