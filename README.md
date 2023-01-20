@@ -56,8 +56,7 @@ This README.md file provides you with an overview of this structure, key informa
     - One Markdown: from the AppStore or other Markdown Viewer
     - Slack (for class communication): https://slack.com 
     - Git: preinstall or https://gitforwindows.org
-    - Java: preinstalled or https://www.java.com
-    
+    - Java JDK: https://www.oracle.com/java/technologies/downloads/
  
 
 ---
