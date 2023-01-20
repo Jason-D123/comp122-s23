@@ -1,5 +1,5 @@
 #! /bin/bash
 
-MARS_JAR=$HOME/classes/comp122/bin/Mars4_5.jar
+MARS_JAR="$HOME/classes/comp122/bin/Mars4_5.jar"
 
-java -jar ${MARS_JAR} $*
+java -jar "${MARS_JAR}" $*
