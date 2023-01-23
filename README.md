@@ -80,6 +80,7 @@ This README.md file provides you with an overview of this structure, key informa
      - Slack: https://slack.com  <br />   
        * Consider installing the mobile application as well
      - Git for Windows: https://gitforwindows.org
+     - Java JDK: https://www.oracle.com/java/technologies/downloads/
 
 
   1. Join the Slack COMP122 work space:
