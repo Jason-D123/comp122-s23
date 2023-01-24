@@ -96,7 +96,7 @@ This README.md file provides you with an overview of this structure, key informa
         ```
         echo $SHELL
         ```
-        If the output is not `bin/bash`, then
+        If the output is not `/bin/bash`, then
 
         - change your shell to bash
           ```
