@@ -77,6 +77,7 @@
 ## Resources
   * https://git-scm.com
   * 'bin/Oh\ My\ Git\!'
+  * https://docs.github.com/en/get-started/quickstart/hello-world
 
 
 ---

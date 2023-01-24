@@ -14,7 +14,7 @@
 ## Today's Agenda
    * Some Philosophy.
    * See Slides: administrative/documents/day1_agenda.pptx
-
+  
 
 ## Questions from Last Lecture/Lab, etc.:
    * First Lecture, hence no questions from last time!
@@ -48,7 +48,7 @@
        1. Except what is expected to change: Improvise, Adapt, Overcome!
 
   1. Class Notes:
-     - Markdown verseS Markup
+     - Markdown verses Markup
        - reference/markdown-cheat-sheet.md
      - Sublime Text
        - subl
