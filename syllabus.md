@@ -25,7 +25,7 @@
      https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH <br>
 
    * Office Hours: 
-     - Tuesday @ 11:30-12:15 & Thursday @ 12:00-12:45 -- with prior notification.
+     - Tuesday @ 11:30-12:20 & Thursday @ 12:00-12:50 -- with prior notification.
      - Zoom Link: https://csun.zoom.us/my/smf.steve
 
 ## Class Information: COMP122/L-02 (16204 /16205)
