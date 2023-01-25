@@ -127,17 +127,19 @@ This README.md file provides you with an overview of this structure, key informa
         cd
         touch .profile
         cp .profile .profile.orig
-        echo 'source $HOME/classes/comp122/.profile.comp122'  >> .profile
+        echo 'source ~/classes/comp122/.profile.comp122'  >> .profile
         source .profile
         ```
 
-     1. For System Security reasons, you must register the MARS IDE with the Operating System.
+     1. For System Security reasons, you may need to register the MARS IDE with the Operating System.
         - Open up File Explorer (Windows) or Finder (Mac)
         - Navigate to the COMP122 bin directory:  ~/classes/comp122/bin/
-        - First Double-click the MARS_4_5.jar icon, notice that you receive the message: <br>
+        - First Double-click the Mars4_5.jar icon, notice if your receive the message: <br>
             "Mars4_5.jar” cannot be opened because it is from an unidentified developer.
-        - Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu<br>
-        - Click Open: to validate
+        - If you receive this message, you must Control-click the Mars4_5.jar icon, then choose Open from the shortcut menu<br>
+        Thereafter, you can Double-click the Mars4_5.jar icon to open the application.
+
+
 
   1. Test your local environment.  First open a new terminal and execute the following commands:
      ```
