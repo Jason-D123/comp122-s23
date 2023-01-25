@@ -13,8 +13,8 @@
 
 ## Questions from Last Lecture/Lab, etc.:
    * M/W @ 9:00 am
-     1.
-     1. 
+     1. How do I submit my assignments?  `git push`
+
 
    * M/W @ 2:00 pm
      1.
