@@ -54,6 +54,8 @@ This README.md file provides you with an overview of this structure, key informa
   * Software Requirements
     - Sublime Text (editor): https://www.sublimetext.com
     - One Markdown: from the AppStore or other Markdown Viewer
+       - https://apps.microsoft.com/store/detail/markdown-view/9PJ021LR0M3G
+       - https://apps.apple.com/us/app/one-markdown/id1507139439
     - Slack (for class communication): https://slack.com 
     - Git: preinstall or https://gitforwindows.org
     - Java JDK: https://www.oracle.com/java/technologies/downloads/
