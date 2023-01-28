@@ -74,7 +74,7 @@ This README.md file provides you with an overview of this structure, key informa
        - All deliverables are submitted via GitHub Classrooms.
 
   1. Install Software on your personal computer:
-     - Sublime Text Editor: https://wwsw.sublimetext.com
+     - Sublime Text Editor: https://www.sublimetext.com
        (MacOS: Note you must move the ublime Text application from the Downloads folder to the Applications folder.)
      - A Markdown View: (for example)
        - https://apps.microsoft.com/store/detail/markdown-view/9PJ021LR0M3G
