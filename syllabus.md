@@ -54,6 +54,7 @@
   1. Data Formats and Encodings for Computing (In-class Exam #2)
   1. Digital Logic: Combinational and Sequential Circuits (Online Quiz #3)
   1. Assembly-Level Programming (In-class Exam #4)
+  
   For reference: [Fall23 schedule](https://docs.google.com/document/d/1uIOXxD7ZS493IKF9qqYf2KeQtfmE0fTXgGXtjZrDoWY) 
 
 ## Course Requirements:
