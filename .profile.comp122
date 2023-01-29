@@ -2,8 +2,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export COMP122_HOME="$HOME/classes/comp122"
 export COMP122_BIN="${COMP122_HOME}/bin"
+export COMP122_KEY="$HOME/.ssh/id_comp122_github"
 
-export SUBLIME_BIN
 export GIT_EDITOR
 
 # Check which effective OS is being used
@@ -15,14 +15,44 @@ fi
 
 case "${_OS}" in
    Msys )   # Windows Machine using GitBash
-    SUBLIME_BIN='/c/Program Files/Sublime Text/'
-    SUBLIME='subl.exe -w'
-    ;;
+     SUBLIME_BIN='/c/Program Files/Sublime Text/'
+     SUBLIME='subl.exe -w'
+     LAUNCH="start"
+     CLIP_COPY="clip"
+     ;;
    Darwin ) # MacOS
      SUBLIME_BIN='/Applications/Sublime Text.app/Contents/SharedSupport/bin'  
      SUBLIME='subl -w -n'
+     LAUNCH="open"
+     CLIP_COPY="pbcopy"
      ;;
 esac
+
+
+function comp122-keygen () {
+   
+   mkdir -m 700 -p ~/.ssh
+   ssh-keygen -t ed25519 -f "${COMP122_KEY}" -C "comp122 git@github.com" 2>/dev/null
+
+   if [[ $? != 0 ]] ; then 
+     # Note if the ed25519 type is not recognized then use RSA with 4096 bits
+     ssh-keygen -t rsa -b 4096 -f "${COMP122_KEY}" -C "comp122 git@github.com" 
+   fi
+
+   if [[ $? == 0 ]] ; then 
+     ${CLIP_COPY} < "${COMP122_KEY}.pub"
+
+     echo 
+     echo "A copy of your public key has been placed into the clip board."
+     echo "  Copy this public key to your github account!"
+     echo
+     echo "  ${LAUNCH} https://github.com/settings/keys"
+   else
+     echo "Error: a public/private key pair was not correctly generated."
+   fi
+   return $?
+}
+
 
 PATH="${COMP122_BIN}:${SUBLIME_BIN}:$PATH"
 GIT_EDITOR="$SUBLIME"
