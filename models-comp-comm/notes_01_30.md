@@ -1,4 +1,4 @@
-# COMP122 Lecture Notes: January 23, 2023
+# COMP122 Lecture Notes: January 30, 2023
 
 ## Announcements:
    1. Assignments 02/03 extended to Tuesday: 23:59:59
@@ -23,8 +23,8 @@
 
 ## Questions from Last Lecture/Lab, etc.:
    * M/W @ 9:00 am
-     1.
-     1. 
+     1. General questions on the CLI commands and assignments
+
 
    * M/W @ 2:00 pm
      1.
@@ -60,6 +60,7 @@
      mkdir
      open                   # start
      pbcopy                 # clip
+     pwd
      source
      ssh
      ssh-keygen
@@ -88,3 +89,34 @@
 ---
 ## Notes
 <!-- This section is for students to place their notes -->
+
+   ```bash
+     cd : change directory
+     chsh
+     cp
+     echo
+     git
+     git add
+     git branch
+     git checkout
+     git clone
+     git commit
+     git config --global 
+     git config --list
+     git log
+     git push
+     git status
+     ls
+     mars
+     mips_subroutine
+     mkdir
+     open                   # start
+     pbcopy                 # clip
+     pwd
+     source
+     ssh
+     ssh-keygen
+     subl
+     touch
+     ```
+
