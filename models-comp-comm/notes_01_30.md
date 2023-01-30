@@ -45,8 +45,6 @@
      echo
      git
      git add
-     git branch
-     git checkout
      git clone
      git commit
      git config --global 
@@ -54,10 +52,12 @@
      git log
      git push
      git status
+     git branch
+     git checkout
      ls
      mars
      mips_subroutine
-     mkdir
+     mkdir, rmdir 
      open                   # start
      pbcopy                 # clip
      pwd
@@ -65,7 +65,7 @@
      ssh
      ssh-keygen
      subl
-     touch
+     touch, rm
      ```
 
 ---
@@ -90,33 +90,4 @@
 ## Notes
 <!-- This section is for students to place their notes -->
 
-   ```bash
-     cd : change directory
-     chsh
-     cp
-     echo
-     git
-     git add
-     git branch
-     git checkout
-     git clone
-     git commit
-     git config --global 
-     git config --list
-     git log
-     git push
-     git status
-     ls
-     mars
-     mips_subroutine
-     mkdir
-     open                   # start
-     pbcopy                 # clip
-     pwd
-     source
-     ssh
-     ssh-keygen
-     subl
-     touch
-     ```
 
