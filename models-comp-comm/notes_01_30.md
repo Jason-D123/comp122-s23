@@ -18,7 +18,6 @@
 ## Today's Agenda:
    1. Review / Questions
       - List of CLI Commands
-   1. Sketch of a process
    1. Models of Computation and Communication
 
 
