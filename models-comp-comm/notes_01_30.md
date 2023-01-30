@@ -26,7 +26,6 @@
    * M/W @ 9:00 am
      1. General questions on the CLI commands and assignments
 
-
    * M/W @ 2:00 pm
      1.
 
