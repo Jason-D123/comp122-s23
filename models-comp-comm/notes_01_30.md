@@ -18,7 +18,8 @@
 ## Today's Agenda:
    1. Review / Questions
       - List of CLI Commands
-   1. Models of Computation and Communication
+   1. ~Models of Computation and Communication~
+      - Did not get to this today.
 
 
 ## Questions from Last Lecture/Lab, etc.:
@@ -70,17 +71,10 @@
 
 ---
 # Today's Material
-  1. Sketch of a process, with I/O functions (sort)
-     - A process: a running program!
-     - Components of a process:
-       - Environment: an array of passed in variables and values
-       - Attached Files: for input and output
-       - Return Value: 
-     - Diagram of a Process:
-
-
-  1. Models of Communication and Computation
-    - See slides:  Models
+  1. Made sure everyone is up-to-speed
+     - The command line
+     - Your comp122 environment
+     - Walking through the logistics of git & assignments
 
 
 ---
