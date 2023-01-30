@@ -2,6 +2,5 @@
 local
 deliverables
 assignment-grading
-documents
-mips_subroutine
-
+grade_guesstimator.md
+.boot.*
