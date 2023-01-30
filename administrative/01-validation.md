@@ -19,6 +19,7 @@ git pull
 echo ~/.bash*
 cat ~/.profile
 which subl
+java --version
 which mars
 cd ~/classes/comp122/deliverables/
 git config --get user.name
