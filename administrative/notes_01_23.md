@@ -75,7 +75,7 @@
      - Invitations URLs: https://classroom.github.com/a/c1oXvbim
 
   1. Google Drive
-https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH
+     - https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH
 
   1. Slack
      - Pins
@@ -94,7 +94,7 @@ https://drive.google.com/drive/u/0/folders/1WpDQTpX-rFnPNkcynDI2-7faFX0qOzjH
 ---
 ## Resources
   * Canonical: (Mathematics) relating to a general rule or standard formula.
-
+  * Lots of good stuff in the bin and resources directory
 
 ---
 ## Notes

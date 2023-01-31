@@ -28,7 +28,7 @@
      - Tuesday @ 11:30-12:20 & Thursday @ 12:00-12:50 -- with prior notification.
      - Zoom Link: https://csun.zoom.us/my/smf.steve
 
-## Class Information: COMP122/L-02 (16204 /16205)
+#### Class Information: COMP122/L-02 (16204/16205)
 * Meeting Times: Monday & Wednesday @ 9:00-9:25 AM & 9:30-10:45 AM
 * Meeting Location: JD2216 
 * Final Exam: None
@@ -48,11 +48,14 @@
 * Meeting Location: JD2216
 * Final Exam: None
 
-## [Class Schedule](https://docs.google.com/document/d/1uIOXxD7ZS493IKF9qqYf2KeQtfmE0fTXgGXtjZrDoWY) 
+## Class Schedule
+  The class schedule is being revised see: ~/classes/comp122/adminstrative/schedule.md
   1. Models for Communication and Computation (Online Quiz #1)
   1. Data Formats and Encodings for Computing (In-class Exam #2)
   1. Digital Logic: Combinational and Sequential Circuits (Online Quiz #3)
   1. Assembly-Level Programming (In-class Exam #4)
+  
+  For reference: [Fall22 schedule](https://docs.google.com/document/d/1uIOXxD7ZS493IKF9qqYf2KeQtfmE0fTXgGXtjZrDoWY) 
 
 ## Course Requirements:
   1. You must know how to program in Java.

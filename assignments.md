@@ -62,6 +62,7 @@ This file contains the list of deliverables for COMP 122. Such deliverables incl
 1. My First Assignment
    - Status: Released
    - Deliverable ID: 02
+   - Instructions: https://github.com/COMP122/first-assignment
    - Invitation URL: https://classroom.github.com/a/c1oXvbim
    - Due Date: Jan 27 23:59:59
 

@@ -6,8 +6,8 @@
 
 ## Today's Agenda
    1. Pickup where were left off
+   1. SSH : Walk through of github authentication
    1. Git
-   1. SSH
    1. Walk trough of the assignments
    1. Feedback System
 
@@ -15,15 +15,14 @@
    * M/W @ 9:00 am
      1. How do I submit my assignments?  `git push`
 
-
    * M/W @ 2:00 pm
-     1.
+     1. No questions!
 
    * T/R @ 9:00 am
-     1.
+     1. Should we use subl and markdown to take notes? Yes!
 
    * T/R @ 2:00 pm
-     1.
+     1. No questions!
 
 ---
 # Today's Material
@@ -82,5 +81,3 @@
 
 ---
 ## Notes 
-
-currently testing
