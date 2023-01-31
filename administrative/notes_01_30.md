@@ -27,7 +27,10 @@
      1. General questions on the CLI commands and assignments
 
    * M/W @ 2:00 pm
-     1.
+     1. Subl not working ? on symbolic link?
+     1. Warning/Error when `git pull` command is executed?
+     1. What is the -m option to `git commit`?
+     1. How do we get our grades for each assignment?
 
    * T/R @ 9:00 am
      1.
@@ -41,7 +44,7 @@
      ```bash
      cd
      chsh
-     cp
+     cp, mv
      echo
      git
      git add
@@ -57,7 +60,7 @@
      ls
      mars
      mips_subroutine
-     mkdir, rmdir 
+     mkdir, rmdir, rm -r
      open                   # start
      pbcopy                 # clip
      pwd
