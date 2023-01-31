@@ -18,7 +18,7 @@
 ## Today's Agenda:
    1. Review / Questions
       - List of CLI Commands
-   1. ~Models of Computation and Communication~
+   1. ~Models of Computation and Communication~ 
       - Did not get to this today.
 
 
@@ -44,33 +44,40 @@
 
    1. List of CLI commands
      ```bash
-     cd
-     chsh
-     cp, mv 
-     echo
-     git
-     git add
-     git clone
-     git commit
-     git config --global 
-     git config --list
-     git log
-     git push
-     git status
-     git branch
-     git checkout
-     ls
-     mars
-     mips_subroutine
-     mkdir, rmdir, rm -r
-     open                   # start
-     pbcopy                 # clip
-     pwd
-     source
-     ssh
-     ssh-keygen
-     subl
-     touch, rm
+     cd                       # Change Directory (folder) : Used to access a specific working directory!
+     chsh                     # Change Shell
+     cp, mv                   # Copy (from A to B)  
+     echo                     # Takes whats on command line and reprints it out Ex. $ echo hello there! || output: hello there!
+     git                      # Version control system, helps you track versions of software (think commits!)
+                              # Git Four Major Pieces! *******TEST QUESTION********* - Know how to draw diagram ?
+                                  # 1. Working Directory 
+                                  # 2. Staging or Index
+                                  # 3. Local Repo
+                                  # 4. Remote Repo
+     git add                  # Adds to the Index
+     git clone                # Copys remote to local repo  
+     git commit               # Adds and removes to the repo 
+     git config --global      # 
+     git config --list        # information of global 
+     git log                  # Shows everything that occured in the repo
+     git push                 # Takes everything from the local and pushes it to the remote
+     git status               # Shows your status of the local to see if your ahead in commits
+     git branch               # Create delete rename and list branches  
+     git checkout             # Used to checkout a certain branch to see versions
+     ls                       # List everything thats in a directory
+     mars                     # MARS - Mips Assembler and Runtime System (Its like a compiler)
+     mips_subroutine          # Written by professor to help us with mips code  
+     mkdir, rmdir, rm -r      # mkdir - Make directory
+                              # rmdir - Remove directory
+                              # rm -r - remove all files in directory then the directory itself. (recursive n * (n-1)! )
+     open or start (windows)  # Launches program that can read file to open the file 
+     pbcopy or clip (windows) # copy to clipboard
+     pwd                      # shows you current directory (PWD - Present Working Directory) 
+     source                   # used to execute a bunch of commands
+     ssh                      # SSH - secure shell , (public private keys) 
+     ssh-keygen               # program that generates public and private key pairs
+     subl                     # launch sublime text to open a file 
+     touch, rm                # creates a file if it doesnt exist and if it does exist it says the last day its modified.
      ```
 
 ---
