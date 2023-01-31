@@ -33,7 +33,9 @@
      1. How do we get our grades for each assignment?
 
    * T/R @ 9:00 am
-     1.
+     1. More info on the 01- assignment?
+     1. How do I know I successfully submitted my deliverable?
+
 
    * T/R @ 2:00 pm
      1.
@@ -44,7 +46,7 @@
      ```bash
      cd
      chsh
-     cp, mv
+     cp, mv 
      echo
      git
      git add
